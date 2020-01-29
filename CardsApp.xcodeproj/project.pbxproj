@@ -9,12 +9,40 @@
 /* Begin PBXBuildFile section */
 		540BC80623E034EB00364083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BC80523E034EB00364083 /* AppDelegate.swift */; };
 		540BC80823E034EB00364083 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BC80723E034EB00364083 /* SceneDelegate.swift */; };
-		540BC80A23E034EB00364083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BC80923E034EB00364083 /* ViewController.swift */; };
 		540BC80D23E034EB00364083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BC80B23E034EB00364083 /* Main.storyboard */; };
 		540BC80F23E034EC00364083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BC80E23E034EC00364083 /* Assets.xcassets */; };
 		540BC81223E034EC00364083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BC81023E034EC00364083 /* LaunchScreen.storyboard */; };
 		540BC81D23E034EC00364083 /* CardsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BC81C23E034EC00364083 /* CardsAppTests.swift */; };
 		540BC82823E034EC00364083 /* CardsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540BC82723E034EC00364083 /* CardsAppUITests.swift */; };
+		545A42BF23E1A3120060D2F5 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A42BE23E1A3120060D2F5 /* Debouncer.swift */; };
+		54EC0F6623E03940001033E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F6523E03940001033E7 /* Constants.swift */; };
+		54EC0F6923E03B89001033E7 /* RequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F6823E03B89001033E7 /* RequestBody.swift */; };
+		54EC0F6B23E03BE5001033E7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F6A23E03BE5001033E7 /* Service.swift */; };
+		54EC0F6E23E03DD5001033E7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F6D23E03DD5001033E7 /* BaseViewController.swift */; };
+		54EC0F7023E03DDF001033E7 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F6F23E03DDF001033E7 /* BasePresenter.swift */; };
+		54EC0F7223E03DED001033E7 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7123E03DED001033E7 /* BaseRouter.swift */; };
+		54EC0F7423E03DF9001033E7 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7323E03DF9001033E7 /* BaseInteractor.swift */; };
+		54EC0F7623E03E08001033E7 /* BaseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7523E03E08001033E7 /* BaseConfigurator.swift */; };
+		54EC0F7923E0473C001033E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7823E0473C001033E7 /* MainViewController.swift */; };
+		54EC0F7B23E04746001033E7 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7A23E04746001033E7 /* MainPresenter.swift */; };
+		54EC0F7D23E0474F001033E7 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7C23E0474F001033E7 /* MainRouter.swift */; };
+		54EC0F7F23E0475B001033E7 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F7E23E0475B001033E7 /* MainInteractor.swift */; };
+		54EC0F8223E04E5F001033E7 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8123E04E5F001033E7 /* MainConfigurator.swift */; };
+		54EC0F8523E0663B001033E7 /* CardTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8423E0663B001033E7 /* CardTableCell.swift */; };
+		54EC0F8823E0677C001033E7 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8723E0677C001033E7 /* ApiResponse.swift */; };
+		54EC0F8A23E0678B001033E7 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8923E0678B001033E7 /* Cards.swift */; };
+		54EC0F8C23E067AD001033E7 /* CardImageUri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8B23E067AD001033E7 /* CardImageUri.swift */; };
+		54EC0F8E23E067B7001033E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8D23E067B7001033E7 /* Card.swift */; };
+		54EC0F9023E06B48001033E7 /* CardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F8F23E06B48001033E7 /* CardsService.swift */; };
+		54EC0F9323E06D0E001033E7 /* RequestBodyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F9223E06D0E001033E7 /* RequestBodyList.swift */; };
+		54EC0F9623E06F1F001033E7 /* RestTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F9523E06F1F001033E7 /* RestTransport.swift */; };
+		54EC0F9A23E076AE001033E7 /* KFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F9923E076AE001033E7 /* KFImageView.swift */; };
+		54EC0F9C23E07E88001033E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54EC0F9B23E07E88001033E7 /* Localizable.strings */; };
+		54EC0F9E23E07F0D001033E7 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F9D23E07F0D001033E7 /* StringExtensions.swift */; };
+		54EC0FA023E08540001033E7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0F9F23E08540001033E7 /* UIViewControllerExtensions.swift */; };
+		54EC0FA223E085E5001033E7 /* PreloaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0FA123E085E5001033E7 /* PreloaderView.swift */; };
+		54EC0FA423E089F8001033E7 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0FA323E089F8001033E7 /* AppError.swift */; };
+		54EC0FA623E08AA8001033E7 /* JsonDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC0FA523E08AA8001033E7 /* JsonDecode.swift */; };
 		9B472B67ABE7EB69EE1A85E6 /* Pods_CardsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B10052097FE238CFF6275 /* Pods_CardsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +68,6 @@
 		540BC80223E034EB00364083 /* CardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540BC80523E034EB00364083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		540BC80723E034EB00364083 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		540BC80923E034EB00364083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		540BC80C23E034EB00364083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		540BC80E23E034EC00364083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540BC81123E034EC00364083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,35 @@
 		540BC82323E034EC00364083 /* CardsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540BC82723E034EC00364083 /* CardsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsAppUITests.swift; sourceTree = "<group>"; };
 		540BC82923E034EC00364083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545A42BE23E1A3120060D2F5 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		54EC0F6523E03940001033E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54EC0F6823E03B89001033E7 /* RequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBody.swift; sourceTree = "<group>"; };
+		54EC0F6A23E03BE5001033E7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		54EC0F6D23E03DD5001033E7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		54EC0F6F23E03DDF001033E7 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		54EC0F7123E03DED001033E7 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		54EC0F7323E03DF9001033E7 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		54EC0F7523E03E08001033E7 /* BaseConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfigurator.swift; sourceTree = "<group>"; };
+		54EC0F7823E0473C001033E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		54EC0F7A23E04746001033E7 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		54EC0F7C23E0474F001033E7 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		54EC0F7E23E0475B001033E7 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		54EC0F8123E04E5F001033E7 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		54EC0F8423E0663B001033E7 /* CardTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableCell.swift; sourceTree = "<group>"; };
+		54EC0F8723E0677C001033E7 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		54EC0F8923E0678B001033E7 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		54EC0F8B23E067AD001033E7 /* CardImageUri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageUri.swift; sourceTree = "<group>"; };
+		54EC0F8D23E067B7001033E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		54EC0F8F23E06B48001033E7 /* CardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsService.swift; sourceTree = "<group>"; };
+		54EC0F9223E06D0E001033E7 /* RequestBodyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBodyList.swift; sourceTree = "<group>"; };
+		54EC0F9523E06F1F001033E7 /* RestTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTransport.swift; sourceTree = "<group>"; };
+		54EC0F9923E076AE001033E7 /* KFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFImageView.swift; sourceTree = "<group>"; };
+		54EC0F9B23E07E88001033E7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		54EC0F9D23E07F0D001033E7 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		54EC0F9F23E08540001033E7 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		54EC0FA123E085E5001033E7 /* PreloaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloaderView.swift; sourceTree = "<group>"; };
+		54EC0FA323E089F8001033E7 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		54EC0FA523E08AA8001033E7 /* JsonDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecode.swift; sourceTree = "<group>"; };
 		569ED33031C669D5A5E62C7E /* Pods-CardsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsApp.release.xcconfig"; path = "Target Support Files/Pods-CardsApp/Pods-CardsApp.release.xcconfig"; sourceTree = "<group>"; };
 		C21A2F4E8F7141014FA39F99 /* Pods-CardsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsApp.debug.xcconfig"; path = "Target Support Files/Pods-CardsApp/Pods-CardsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,13 +162,19 @@
 		540BC80423E034EB00364083 /* CardsApp */ = {
 			isa = PBXGroup;
 			children = (
+				54EC0F9723E0769A001033E7 /* Utils */,
+				54EC0F5D23E03891001033E7 /* Constants */,
+				54EC0F5E23E0389B001033E7 /* Extension */,
+				54EC0F6023E038AD001033E7 /* Base */,
+				54EC0F6223E038D9001033E7 /* Model */,
+				54EC0F5F23E038A4001033E7 /* Service */,
+				54EC0F6123E038B3001033E7 /* Presentation */,
+				54EC0F6423E038FB001033E7 /* Storyboard */,
 				540BC80523E034EB00364083 /* AppDelegate.swift */,
 				540BC80723E034EB00364083 /* SceneDelegate.swift */,
-				540BC80923E034EB00364083 /* ViewController.swift */,
-				540BC80B23E034EB00364083 /* Main.storyboard */,
 				540BC80E23E034EC00364083 /* Assets.xcassets */,
-				540BC81023E034EC00364083 /* LaunchScreen.storyboard */,
 				540BC81323E034EC00364083 /* Info.plist */,
+				54EC0F9B23E07E88001033E7 /* Localizable.strings */,
 			);
 			path = CardsApp;
 			sourceTree = "<group>";
@@ -135,13 +197,170 @@
 			path = CardsAppUITests;
 			sourceTree = "<group>";
 		};
+		545A42BD23E1A3000060D2F5 /* Debouncer */ = {
+			isa = PBXGroup;
+			children = (
+				545A42BE23E1A3120060D2F5 /* Debouncer.swift */,
+			);
+			path = Debouncer;
+			sourceTree = "<group>";
+		};
+		54EC0F5D23E03891001033E7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F6523E03940001033E7 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		54EC0F5E23E0389B001033E7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9D23E07F0D001033E7 /* StringExtensions.swift */,
+				54EC0F9F23E08540001033E7 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		54EC0F5F23E038A4001033E7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F8F23E06B48001033E7 /* CardsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		54EC0F6023E038AD001033E7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9423E06F0E001033E7 /* Transport */,
+				54EC0F6C23E03DC2001033E7 /* Presentation */,
+				54EC0F6723E03B6D001033E7 /* Model */,
+				54EC0F6A23E03BE5001033E7 /* Service.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54EC0F6123E038B3001033E7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F7723E04728001033E7 /* MainScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		54EC0F6223E038D9001033E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9123E06CEF001033E7 /* RequestBody */,
+				54EC0F8623E06766001033E7 /* ApiModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54EC0F6423E038FB001033E7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				540BC81023E034EC00364083 /* LaunchScreen.storyboard */,
+				540BC80B23E034EB00364083 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		54EC0F6723E03B6D001033E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F6823E03B89001033E7 /* RequestBody.swift */,
+				54EC0FA323E089F8001033E7 /* AppError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54EC0F6C23E03DC2001033E7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F6D23E03DD5001033E7 /* BaseViewController.swift */,
+				54EC0F6F23E03DDF001033E7 /* BasePresenter.swift */,
+				54EC0F7123E03DED001033E7 /* BaseRouter.swift */,
+				54EC0F7323E03DF9001033E7 /* BaseInteractor.swift */,
+				54EC0F7523E03E08001033E7 /* BaseConfigurator.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		54EC0F7723E04728001033E7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F8323E06625001033E7 /* TableView */,
+				54EC0F7823E0473C001033E7 /* MainViewController.swift */,
+				54EC0F7A23E04746001033E7 /* MainPresenter.swift */,
+				54EC0F7C23E0474F001033E7 /* MainRouter.swift */,
+				54EC0F7E23E0475B001033E7 /* MainInteractor.swift */,
+				54EC0F8123E04E5F001033E7 /* MainConfigurator.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		54EC0F8323E06625001033E7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F8423E0663B001033E7 /* CardTableCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		54EC0F8623E06766001033E7 /* ApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F8723E0677C001033E7 /* ApiResponse.swift */,
+				54EC0F8923E0678B001033E7 /* Cards.swift */,
+				54EC0F8B23E067AD001033E7 /* CardImageUri.swift */,
+				54EC0F8D23E067B7001033E7 /* Card.swift */,
+			);
+			path = ApiModel;
+			sourceTree = "<group>";
+		};
+		54EC0F9123E06CEF001033E7 /* RequestBody */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9223E06D0E001033E7 /* RequestBodyList.swift */,
+			);
+			path = RequestBody;
+			sourceTree = "<group>";
+		};
+		54EC0F9423E06F0E001033E7 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9523E06F1F001033E7 /* RestTransport.swift */,
+				54EC0FA523E08AA8001033E7 /* JsonDecode.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		54EC0F9723E0769A001033E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				545A42BD23E1A3000060D2F5 /* Debouncer */,
+				54EC0F9823E076A1001033E7 /* Views */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		54EC0F9823E076A1001033E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54EC0F9923E076AE001033E7 /* KFImageView.swift */,
+				54EC0FA123E085E5001033E7 /* PreloaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		899C90F322BEDE014B8A37D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C21A2F4E8F7141014FA39F99 /* Pods-CardsApp.debug.xcconfig */,
 				569ED33031C669D5A5E62C7E /* Pods-CardsApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				540BC81223E034EC00364083 /* LaunchScreen.storyboard in Resources */,
+				54EC0F9C23E07E88001033E7 /* Localizable.strings in Resources */,
 				540BC80F23E034EC00364083 /* Assets.xcassets in Resources */,
 				540BC80D23E034EB00364083 /* Main.storyboard in Resources */,
 			);
@@ -335,9 +555,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540BC80A23E034EB00364083 /* ViewController.swift in Sources */,
+				54EC0F7623E03E08001033E7 /* BaseConfigurator.swift in Sources */,
+				54EC0F7D23E0474F001033E7 /* MainRouter.swift in Sources */,
+				54EC0F7423E03DF9001033E7 /* BaseInteractor.swift in Sources */,
+				54EC0F9A23E076AE001033E7 /* KFImageView.swift in Sources */,
+				54EC0F7923E0473C001033E7 /* MainViewController.swift in Sources */,
+				54EC0F7223E03DED001033E7 /* BaseRouter.swift in Sources */,
+				54EC0F7023E03DDF001033E7 /* BasePresenter.swift in Sources */,
+				54EC0F7B23E04746001033E7 /* MainPresenter.swift in Sources */,
+				54EC0F7F23E0475B001033E7 /* MainInteractor.swift in Sources */,
+				54EC0F8223E04E5F001033E7 /* MainConfigurator.swift in Sources */,
+				54EC0F9323E06D0E001033E7 /* RequestBodyList.swift in Sources */,
+				54EC0F8C23E067AD001033E7 /* CardImageUri.swift in Sources */,
 				540BC80623E034EB00364083 /* AppDelegate.swift in Sources */,
 				540BC80823E034EB00364083 /* SceneDelegate.swift in Sources */,
+				54EC0FA623E08AA8001033E7 /* JsonDecode.swift in Sources */,
+				54EC0F6923E03B89001033E7 /* RequestBody.swift in Sources */,
+				54EC0F6623E03940001033E7 /* Constants.swift in Sources */,
+				54EC0FA023E08540001033E7 /* UIViewControllerExtensions.swift in Sources */,
+				54EC0F6E23E03DD5001033E7 /* BaseViewController.swift in Sources */,
+				54EC0F9623E06F1F001033E7 /* RestTransport.swift in Sources */,
+				54EC0F8E23E067B7001033E7 /* Card.swift in Sources */,
+				54EC0FA423E089F8001033E7 /* AppError.swift in Sources */,
+				54EC0FA223E085E5001033E7 /* PreloaderView.swift in Sources */,
+				545A42BF23E1A3120060D2F5 /* Debouncer.swift in Sources */,
+				54EC0F8823E0677C001033E7 /* ApiResponse.swift in Sources */,
+				54EC0F8A23E0678B001033E7 /* Cards.swift in Sources */,
+				54EC0F6B23E03BE5001033E7 /* Service.swift in Sources */,
+				54EC0F9E23E07F0D001033E7 /* StringExtensions.swift in Sources */,
+				54EC0F8523E0663B001033E7 /* CardTableCell.swift in Sources */,
+				54EC0F9023E06B48001033E7 /* CardsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5ZSZ5HMXL;
 				INFOPLIST_FILE = CardsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,6 +778,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5ZSZ5HMXL;
 				INFOPLIST_FILE = CardsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

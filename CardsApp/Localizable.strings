@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CardsApp
+
+  Created by David Zakharyan on 28.01.2020.
+  Copyright © 2020 David Zakharyan. All rights reserved.
+*/
+"search_placeholder" = "Search";
+"artist" = "Illustrated by %@";
+"ok" = "Ok";

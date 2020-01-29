@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zLx-jP-3Lr">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="B7g-mQ-nfq">
+            <objects>
+                <navigationController id="zLx-jP-3Lr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xfq-y7-4QN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QW1-Hd-Nhs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3i-Mm-B1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-612" y="80"/>
+        </scene>
+        <!--Cards App-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="MainViewController" customModule="CardsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YKa-vd-edf">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="Mye-ei-aWd">
+                                    <rect key="frame" x="0.0" y="256" width="375" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CardTableCell" rowHeight="200" id="2P5-ZF-6nE" customClass="CardTableCell" customModule="CardsApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2P5-ZF-6nE" id="GAb-9c-wPo">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hUe-nf-q2N" customClass="KFImageView" customModule="CardsApp" customModuleProvider="target">
+                                                    <rect key="frame" x="15" y="11" width="146" height="178"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="178" id="owR-mK-kHz"/>
+                                                        <constraint firstAttribute="width" constant="146" id="rUy-rm-LSc"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXG-ME-W62">
+                                                    <rect key="frame" x="169" y="11" width="191" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdb-De-Hem">
+                                                    <rect key="frame" x="169" y="38.5" width="191" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Illustrated title" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8b-NO-W22">
+                                                    <rect key="frame" x="169" y="63.5" width="191" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r8b-NO-W22" firstAttribute="leading" secondItem="hUe-nf-q2N" secondAttribute="trailing" constant="8" id="03Y-va-e2e"/>
+                                                <constraint firstItem="r8b-NO-W22" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="GAb-9c-wPo" secondAttribute="bottomMargin" id="3La-Fc-CBm"/>
+                                                <constraint firstItem="hUe-nf-q2N" firstAttribute="top" secondItem="GAb-9c-wPo" secondAttribute="topMargin" id="4vf-Uk-tXx"/>
+                                                <constraint firstItem="tdb-De-Hem" firstAttribute="leading" secondItem="hUe-nf-q2N" secondAttribute="trailing" constant="8" id="FFQ-Aa-Pmu"/>
+                                                <constraint firstItem="OXG-ME-W62" firstAttribute="trailing" secondItem="GAb-9c-wPo" secondAttribute="trailingMargin" id="FMU-tX-0xQ"/>
+                                                <constraint firstItem="OXG-ME-W62" firstAttribute="top" secondItem="GAb-9c-wPo" secondAttribute="topMargin" id="IdU-bI-fJj"/>
+                                                <constraint firstItem="r8b-NO-W22" firstAttribute="trailing" secondItem="GAb-9c-wPo" secondAttribute="trailingMargin" id="Qcf-vo-Sme"/>
+                                                <constraint firstItem="tdb-De-Hem" firstAttribute="trailing" secondItem="GAb-9c-wPo" secondAttribute="trailingMargin" id="XaW-ph-QeT"/>
+                                                <constraint firstItem="hUe-nf-q2N" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="GAb-9c-wPo" secondAttribute="bottomMargin" id="iAf-n0-eR3"/>
+                                                <constraint firstItem="OXG-ME-W62" firstAttribute="leading" secondItem="hUe-nf-q2N" secondAttribute="trailing" constant="8" id="lOh-As-Mp5"/>
+                                                <constraint firstItem="tdb-De-Hem" firstAttribute="top" secondItem="OXG-ME-W62" secondAttribute="bottom" constant="8" id="osQ-2l-qvw"/>
+                                                <constraint firstItem="r8b-NO-W22" firstAttribute="top" secondItem="tdb-De-Hem" secondAttribute="bottom" constant="8" id="tG5-xt-Sic"/>
+                                                <constraint firstItem="hUe-nf-q2N" firstAttribute="leading" secondItem="GAb-9c-wPo" secondAttribute="leadingMargin" id="umM-Gm-27d"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cardImage" destination="hUe-nf-q2N" id="ifS-TM-t6A"/>
+                                            <outlet property="descriptionLabel" destination="tdb-De-Hem" id="pcs-su-mc2"/>
+                                            <outlet property="illustratorLabel" destination="r8b-NO-W22" id="Msx-dM-kot"/>
+                                            <outlet property="nameLabel" destination="OXG-ME-W62" id="u0U-Je-SF6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YKa-vd-edf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1Ga-88-hcO"/>
+                            <constraint firstItem="YKa-vd-edf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2Jw-kZ-9Xc"/>
+                            <constraint firstAttribute="bottom" secondItem="YKa-vd-edf" secondAttribute="bottom" id="5GG-vw-Tcl"/>
+                            <constraint firstItem="YKa-vd-edf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="m3A-sp-NOq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cards App" id="c2j-iB-Hfn"/>
+                    <connections>
+                        <outlet property="tableViewCards" destination="YKa-vd-edf" id="wOr-p0-m6S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </scene>
+    </scenes>
+</document>
